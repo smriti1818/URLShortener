@@ -1,0 +1,11 @@
+@URLShortener.API_HostAddress = http://localhost:5221
+
+GET {{URLShortener.API_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{URLShortener.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
